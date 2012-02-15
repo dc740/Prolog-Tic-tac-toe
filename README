@@ -1,0 +1,19 @@
+Tic-tac-toe in SWI Prolog
+
+
+Type "jugarTateti." to start.
+make your play using "tic(squareNumber)."
+
+The machine starts on the first game by default
+You are X, the machine is O
+
+The program does NOT know about every single possible play. But it does know the strategies needed to win or draw each match (you can't win, ever).
+If you want to win at least one game you have to edit the program and change:
+habilitar_gana_o_empata(2). 
+to
+habilitar_gana_o_empata(4). 
+
+That little change will enable two weak strategies that will let you win a match if you are smart enough :)
+
+Copyright 2008-2012 Emilio Moretti <emilio.morettiATgmailDOTcom>
+This program is distributed under the terms of the GNU Lesser General Public License.
